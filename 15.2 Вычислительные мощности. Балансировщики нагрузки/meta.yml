@@ -1,0 +1,5 @@
+#cloud-config
+write_files:
+- content: |
+    <img src="https://storage.yandexcloud.net/netology.bucket/devops">
+  path: /var/www/html/index.html
